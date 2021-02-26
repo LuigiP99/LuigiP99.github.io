@@ -1,0 +1,343 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.oscuro {
+    background-color: #36393F;
+}
+
+.header {
+    display: flex;
+    background-color: #187CC6;
+    align-items: center;
+    padding: 0px 50px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    color: #54C7C3;
+    padding: 0px 50px;
+    background-color: #1B5986;
+    flex-wrap: wrap;
+}
+
+.button-dark {
+    text-decoration: none;
+    color: #54C7C3;
+    padding: 0px 20px; 
+    background-color: #1B5986;
+}
+
+.menu a:hover {
+    color: #094150;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.page-title {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 250px;
+    padding-right: 500px;
+}
+
+.cover {
+    background-image: url("Portada.jpg");
+    height: 650px;
+    width: 1887px;
+    background-size: 2000px 600px;
+    background-repeat: no-repeat;
+    margin-top: -4.5em;
+}
+
+.title-strong1 {
+    color: #F5E708;
+}
+
+.title-strong2 {
+    color: #0209DE;
+}
+
+.title-strong3 {
+    color: #FA0707;
+}
+
+.description h2{
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: normal;
+    font-size: 45px;
+    text-align: center;
+}
+
+.description {
+    background-color: #1B5986;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 1300px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+.description h2 {
+    font-size: 60px;
+    text-decoration: bold;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.description-text {
+    display: flex;
+    width: 1100px;
+    font-size: 30px;
+    padding-left: 10px;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.description-imageContainer {
+    width: 500px;
+}
+
+.movies-s {
+    background-image: url("Fondo de peliculas.png");
+    background-size: 2000px 700px;
+    background-repeat: no-repeat;
+}
+
+.movies-s h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #38E8E8;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+
+.table1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 10px 10px;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+
+.table1 a {
+    text-decoration: none;
+    color: #38E8E8;
+    background-color: #549996;
+}
+
+.table1 a:hover {
+    color: #0D5163;
+}
+
+.table1 td {
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px 10px;
+}
+
+.movies-s h2 {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: normal;
+    background-color: #1D646B;
+}
+
+.videogames-title {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    background-color: #2D934B;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.videogames-subtitle {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    background-color: #258F0B;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.videogames h4{
+    font-size: 25px;
+    text-decoration: underline;
+    color: #5BC12E;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+
+
+.videogames p {
+    font-size: 20px;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.videogames a {
+    text-decoration: none;
+    color: lime;
+}
+
+.game1 {
+    background-image: url("Mario-bros.jpg");
+    background-size: 2000px 700px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.game2 {
+    background-image: url("https://wallpapercave.com/wp/wp8069856.png");
+    background-size: 2000px 700px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.game3 {
+    background-image: url("tetris.jpg");
+    background-size: 2000px 700px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.game4 {
+    background-image: url("doom.jpg");
+    background-size: 2000px 700px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.game5 {
+    background-image: url("pinball.jpg");
+    background-size: 2000px 700px;
+    text-align: center;
+}
+
+.game-listDetails {
+    display: flex;
+    
+}
+
+.game-listDetails summary{
+    font-size: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: normal;
+    text-shadow: #38E8E8 0.1em 0.1em 0.2em;
+}
+
+.game-listMenu {
+    display: flex;
+    background-color: #0A5969;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.game-listMenu a {
+    display: flex;
+    text-decoration: none;
+    padding: 0px 100px;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+}
+
+.game-listMenu a:hover {
+    color: #33F5BC;
+}
+
+.game-listMenu ol {
+    display: flex;
+    font-size: 30px;
+    list-style: none;
+}
+
+.musicland h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: normal;
+    color: #1044F3;
+    text-shadow: -1px 0 white, 0 1px white;
+}
+
+.musicland {
+    background-image: url("musica.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 700px;
+}
+
+.table2 {
+    text-align: center;
+    color: #246AE0;
+    font-size: 40px;
+    padding: 10px 10px;
+    text-shadow: -1px 0 white;
+}
+
+.table2 a {
+    text-decoration: none;
+    color: #38E8E8;
+    background-color: #549996;
+}
+
+.table2 a:hover{
+    color: #0D5163;
+}
+
+.table2 td {
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px 10px;
+}
+
+.table2 th {
+    color: #246AE0;
+}
+
+#footer {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #1E1C1D;
+}
+
+.social-media ul{
+    list-style: none;
+}
+
+.social-media h3 {
+    font-size: 25px;
+    color: #E04B28;
+    text-shadow: -1px 0 #FA781B, 0 1px #FA781B;
+}
+
+
+.footer-title {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    color: #FA8734;
+    text-shadow: -1px 0 #FAA125, 0 1px #FAA125;
+}
+
+.footer-description {
+    line-height: 1.5em;
+    font-size: 20px;
+    color: #4728E0;
+    text-shadow: -1px 0 #3474E0, 0 1px #3474E0;
+}
